@@ -1,28 +1,28 @@
-<br>
-<div align="center">
-  <img width="300" alt="NextJS-ChakraUI" src="./.github/assets/Nextjs-ChakraUI.png" />
+## 🚀 Tecnologias/Tecnologies
 
-  <h4 align="center">
-     Next.js, declarative UI and design systems applied to ReactJS. Access the tutorial <a href="https://www.youtube.com/watch?v=6TEo2AxW-oQ">here</a>
-  </h4>
-</div>
+Esse projeto foi desenvolvido com as seguintes tecnologias: </br>
+This project was developed using the following tecnologies:
+
+- Typescript
+- NextJS
+- ChakraUi
+- React
+
+## 💻 Projeto/Project
+
+Esse projeto é uma newsletter que usa a funcionalidade de serveless functions pra rodar o site na vercel sem necessidade de backend proprio, </br>
+This project is newsletter that uses the serveless functions from NextJS to deploy our application.
+
+## :memo: Licença/License
+
+Esse projeto está sob a licença MIT. </br>
+This project is under the MIT license.
 
 ---
-
-<p align="center">
-  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/eugustavo/youtube-nextjs-design-system" />
-  <img alt="Github License" src="https://img.shields.io/github/license/eugustavo/youtube-nextjs-design-system" />
-</p>
-
-<p align="center">
-  <img alt="Rocketseat" src="./.github/assets/login-rocketseat.png">
-</p>
-
 
 ## 🚀 Getting started
 
 To clone and run the application, you will need to have [Git](https://git-scm.com), [Node.js](https://nodejs.org) + [Yarn](https://yarnpkg.com) installed on your machine. With all programs installed, run the following command lines:
-
 
 ```bash
 # Clone this repository
@@ -37,5 +37,3 @@ $ yarn install
 # Run application
 $ yarn dev
 ```
-
-
