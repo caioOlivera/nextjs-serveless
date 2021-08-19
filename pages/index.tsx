@@ -3,6 +3,7 @@ import React, { useState, FormEvent } from "react";
 import { Flex, Image, Button, Text } from "@chakra-ui/core";
 import Input from "../components/Input";
 import axios from "axios";
+import Router from "next/router";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -11,6 +12,7 @@ export default function Home() {
     event.preventDefault();
 
     axios.post("/api/subscribe", { email });
+    Router.push("/sucesso");
   }
 
   return (
@@ -33,7 +35,7 @@ export default function Home() {
           borderRadius="70%"
           alignSelf="center"
           src="https://pbs.twimg.com/profile_images/1426194645193736197/q99cuZX4_400x400.jpg"
-          alt="Rocketseat"
+          alt="Profile Picture"
         />
 
         <Text
@@ -42,11 +44,11 @@ export default function Home() {
           color="gray.400"
           marginBottom={2}
         >
-          Assine a minha newsletter e receba os melhores conteúdos sobre
-          programação!
+          Assine a minha newsletter e receba os melhores conteúdos!
         </Text>
 
         <Input
+          type="email"
           placeholder="Seu melhor e-mail"
           marginTop={2}
           value={email}
