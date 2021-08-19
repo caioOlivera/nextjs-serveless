@@ -10,8 +10,8 @@ This project was developed using the following tecnologies:
 
 ## 💻 Projeto/Project
 
-Esse projeto é uma newsletter que usa a funcionalidade de serveless functions pra rodar o site na vercel sem necessidade de backend proprio, </br>
-This project is newsletter that uses the serveless functions from NextJS to deploy our application.
+Esse projeto é uma newsletter que usa a funcionalidade de serveless functions pra rodar o site na vercel sem necessidade de backend proprio. O projeto foi clonado do repo da Rocketseat e as funcionalidades foram feitas a partir do video explicativo deles. </br>
+This project is newsletter that uses the serveless functions from NextJS to deploy the application. The project was cloned from Rocketseat's repository and its features were built based on their video as well.
 
 ## :memo: Licença/License
 
